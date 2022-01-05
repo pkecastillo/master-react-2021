@@ -1,0 +1,57 @@
+// ccc PARA COMPONENTES DE CLASES
+*------------------------------
+/* eslint-disable no-undef */
+class PrimerComponente extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {  }
+    }
+    render() { 
+        return ( 
+            <>
+            </>
+         );
+    }
+}
+ 
+export default PrimerComponente;
+
+
+// rfc Componente Funcional
+*------------------------------*
+import React from 'react';
+
+const Primercomponente = () => {
+    return (
+        <div>
+            
+        </div>
+    );
+}
+
+export default Primercomponente;
+
+
+
+
+// rafcec Componente Funcional flecha
+*------------------------------*
+import React from 'react';
+import PropTypes from 'prop-types';
+
+
+const Primercomponente = () => {
+    return (
+        <div>
+            
+        </div>
+    );
+};
+
+
+Primercomponente.propTypes = {
+
+};
+
+
+export default Primercomponente;
