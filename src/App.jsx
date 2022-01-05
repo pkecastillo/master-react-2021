@@ -3,12 +3,15 @@ import './App.css';
 // import PrimerComponente from './Components/PrimerComponente';
 // import Props from './Components/Props';
 // import State from './Components/State';
-import EstilosTradicionales from './Components/EstilosTradicionales';
+// import EstilosTradicionales from './Components/EstilosTradicionales';
+// import EstilosEnLinea from './Components/EstilosEnLinea';
+// import EstilosEnModulo from './Components/EstilosEnModulo';
+import EstilosConStyled from './Components/EstilosConStyled';
 
 
 function App() {
 
-  const lista=['pera ', 'manzana ', 'uva']
+  // const lista=['pera ', 'manzana ', 'uva']
   return (
     <>
       <div className="App">
@@ -18,7 +21,10 @@ function App() {
       {/* <PrimerComponente></PrimerComponente> */}
       {/* <Props frutas={lista}></Props> */}
       {/* <State></State> */}
-      <EstilosTradicionales></EstilosTradicionales>
+      {/* <EstilosTradicionales></EstilosTradicionales> */}
+      {/* <EstilosEnLinea></EstilosEnLinea> */}
+      {/* <EstilosEnModulo></EstilosEnModulo> */}
+      <EstilosConStyled></EstilosConStyled>
     </>
   );
 }
