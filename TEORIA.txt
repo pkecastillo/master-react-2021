@@ -34,7 +34,7 @@ export default Primercomponente;
 
 
 
-// rafcec Componente Funcional flecha
+// rafcec o rfcp Componente Funcional flecha
 *------------------------------*
 import React from 'react';
 import PropTypes from 'prop-types';

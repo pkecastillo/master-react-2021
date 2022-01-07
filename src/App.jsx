@@ -6,7 +6,16 @@ import './App.css';
 // import EstilosTradicionales from './Components/EstilosTradicionales';
 // import EstilosEnLinea from './Components/EstilosEnLinea';
 // import EstilosEnModulo from './Components/EstilosEnModulo';
-import EstilosConStyled from './Components/EstilosConStyled';
+// import EstilosConStyled from './Components/EstilosConStyled';
+// import Refs from './Components/Refs';
+// import CicloVidaComponentes from './Components/CicloVidaComponentes';
+// import Hooks from './Components/Hooks';
+// import Formularios from './Components/Formularios';
+// import Eventos from './Components/Eventos';
+// import RenderizadoCondicional from './Components/RenderizadoCondicional';
+// import SpreadOperator from './Components/SpreadOperator';
+// import IterandoArraysYArraysObjetos from './Components/IterandoArraysYArraysObjetos';
+import IterarKeys from './Components/IterarKeys';
 
 
 function App() {
@@ -24,7 +33,17 @@ function App() {
       {/* <EstilosTradicionales></EstilosTradicionales> */}
       {/* <EstilosEnLinea></EstilosEnLinea> */}
       {/* <EstilosEnModulo></EstilosEnModulo> */}
-      <EstilosConStyled></EstilosConStyled>
+      {/* <EstilosConStyled></EstilosConStyled> */}
+      {/* <Refs></Refs> */}
+      {/* <CicloVidaComponentes></CicloVidaComponentes> */}
+      {/* <Hooks></Hooks> */}
+      {/* <Formularios></Formularios> */}
+      {/* <Eventos></Eventos> */}
+      {/* <RenderizadoCondicional></RenderizadoCondicional> */}
+      {/* <SpreadOperator></SpreadOperator> */}
+      {/* <IterandoArraysYArraysObjetos></IterandoArraysYArraysObjetos> */}
+      <IterarKeys></IterarKeys>
+
     </>
   );
 }
