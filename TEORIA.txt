@@ -55,3 +55,9 @@ Primercomponente.propTypes = {
 
 
 export default Primercomponente;
+
+
+
+========= TEORIA CONTEXTS ========
+
+

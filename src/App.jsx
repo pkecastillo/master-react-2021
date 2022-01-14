@@ -23,6 +23,14 @@ import './App.css';
 // import Fetch from './Components/Fetch';
 // import Axios from './Components/Axios';
 // import Padre from './Components/Rutas/Padre';
+// import { useCount } from './Components/hooks/useCount';
+// import UserProvider from './Components/Context/UserContext'
+// import Listausuarios from './Components/ListaUsuarios';
+
+// REDUX
+import {Provider} from 'react-redux';
+import store from './Redux/store';
+import Contador from './Components/Contador'
 
 
 function App() {
@@ -35,13 +43,16 @@ function App() {
   //     setEstado(true)
   // }
 
-  // const hijoLlamaPadre=()=>{
+  // const hijoLlamaPadre=()=>{ 
   //    console.log('llamando a padre desde el componente hijo')
   // }
 
   // const llamandoAHermano=()=>{
   //     setEstado(true)
   // }
+
+  // Hook Personalizado {/* Ejercicio de useCount */}
+  // const[contador]=useCount(0)
 
   return (
     <>
@@ -73,6 +84,17 @@ function App() {
       {/* <Axios></Axios> */}
       {/* Padre de Componente Rutas */}
       {/* <Padre></Padre> */}
+      {/* Ejercicio de useCount */}
+      {/* <h1>{contador}</h1> */}
+
+      {/* <UserProvider>
+            <Listausuarios></Listausuarios>
+      </UserProvider> */}
+
+      {/* REDUX */}
+      {/* <Provider store={store}>
+        <Contador></Contador>
+      </Provider> */}
 
     </>
   );
